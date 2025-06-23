@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Your Cart</title>
+  <link rel="stylesheet" href="styles/style.css" />
+</head>
+<body>
+  <header>
+    <h1>Shopping Cart</h1>
+    <nav>
+      <a href="index.html">Catalog</a>
+      <a href="cart.html">Cart</a>
+      <a href="login.html">Login</a>
+      <a href="register.html">Register</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Your Cart</h2>
+    <div class="cart-grid">
+      <div class="cart-header">Item</div>
+      <div class="cart-header">Name</div>
+      <div class="cart-header">Quantity</div>
+      <div class="cart-header">Price</div>
+      <div class="cart-header">Total</div>
+      <div class="cart-header">Action</div>
+
+      <!-- Sample item row -->
+      <div><img src="./t_shirt.png" alt="T-Shirt" /></div>
+      <div>Classic T-Shirt</div>
+      <div>2</div>
+      <div>$19.99</div>
+      <div>$39.98</div>
+      <div><button class="remove-btn">Remove</button></div>
+    </div>
+
+    <div class="cart-summary">
+      <h3>Total: $39.98</h3>
+      <button class="checkout-btn">Proceed to Checkout</button>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 ShopEasy</p>
+  </footer>
+</body>
+</html>
